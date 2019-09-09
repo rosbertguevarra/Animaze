@@ -1,11 +1,16 @@
 import React from "react";
+import "../style/style.css";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand">Navbar</a>
+      <nav className="navbar">
+        <a className="navbar-brand">
+          Animaze <span>The Anime and Manga Website</span>
+        </a>
+
         <form className="form-inline">
+          <span>Manga</span>
           <input
             className="form-control mr-sm-2"
             type="search"

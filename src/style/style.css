@@ -1,0 +1,23 @@
+.navbar {
+  background: #2e51a2 !important;
+  color: white;
+}
+
+.navbar a {
+  font-family: Arroyo;
+  font-size: 25px;
+}
+
+.navbar a :not(a) {
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border-bottom: 2px solid white;
+  padding-bottom: 1px;
+}
+
+.navbar span {
+  margin-right: 20px;
+}
