@@ -21,3 +21,53 @@
 .navbar span {
   margin-right: 20px;
 }
+
+.upcoming-shows {
+  padding-bottom: 100%;
+  background: #45577e;
+  height: 100vh;
+}
+
+.upcoming-shows h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.upcoming-shows img {
+  display: block;
+  margin-bottom: 10px;
+  width: 85%;
+  border: 5px solid white;
+  opacity: 0.9;
+  box-shadow: 7px 8px 12px black;
+}
+
+.upcoming-shows span {
+  color: white;
+  font-weight: 600;
+}
+
+/* .upcoming-shows .card {
+  width: 18% !important;
+  height: 2% !important;
+  margin: 10px;
+  box-shadow: 7px 8px 12px black;
+} */
+
+/* .upcoming-shows span {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-body span {
+  display: block;
+  text-align: left;
+  color: #2e51a2;
+  font-weight: 700;
+}
+
+.card-body .description {
+  display: inline;
+  color: black;
+} */
