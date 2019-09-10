@@ -47,6 +47,9 @@
   color: white;
   font-weight: 600;
 }
+.featured-anime {
+  padding-bottom: 100%;
+}
 
 /* .upcoming-shows .card {
   width: 18% !important;
