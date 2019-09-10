@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import jikan from "../api/jikan";
 import "../style/style.css";
-import Featured from "./Featured";
 
 export default class Upcoming extends Component {
   state = {

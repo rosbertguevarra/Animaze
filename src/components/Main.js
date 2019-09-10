@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
 import Upcoming from "./Upcoming";
-import Featured from "./Featured";
+import Random from "./Random.js";
+import Quotes from "../components/Quotes";
+import SeasonAnime from "./SeasonAnime";
 
 export default class Main extends Component {
   render() {
@@ -11,6 +13,9 @@ export default class Main extends Component {
         <Navbar />
         <Carousel />
         <Upcoming />
+        <Random />
+        <Quotes />
+        <SeasonAnime />
       </div>
     );
   }

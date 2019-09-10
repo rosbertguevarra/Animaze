@@ -47,30 +47,71 @@
   color: white;
   font-weight: 600;
 }
-.featured-anime {
-  padding-bottom: 100%;
+.random-anime {
+  padding-bottom: 20%;
+  text-align: center;
+  margin-top: 50px;
 }
 
-/* .upcoming-shows .card {
-  width: 18% !important;
-  height: 2% !important;
-  margin: 10px;
-  box-shadow: 7px 8px 12px black;
-} */
+.random-anime h2 {
+  margin-bottom: 150px;
+}
 
-/* .upcoming-shows span {
-  font-size: 15px;
+.random-anime .classification {
+  display: block;
+  text-align: left;
+  margin: 40px;
+  font-weight: 700;
+  color: #2e51a2;
+  font-size: 25px;
+}
+
+.random-anime span :not(.classification) {
+  display: block;
+  float: right;
+  color: black;
+}
+
+.random-anime img {
+  box-shadow: 7px 8px 12px #2e51a2;
+}
+
+.seasonal-anime {
+  padding-bottom: 40%;
+}
+.seasonal-anime h2 {
+  text-align: center;
+  padding-top: 70px;
+  color: #2e51a2;
+}
+
+.quotes {
+  padding-bottom: 10%;
+  background: #45577e;
+  color: white;
+}
+
+.quotes h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.quotes .anime p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.anime .character {
+  display: block;
   text-align: center;
 }
 
-.card-body span {
+.anime .what-anime {
   display: block;
-  text-align: left;
-  color: #2e51a2;
-  font-weight: 700;
+  text-align: center;
 }
-
-.card-body .description {
-  display: inline;
-  color: black;
-} */
